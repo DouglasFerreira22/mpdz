@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-cel {
+    width: 450px;
+}
+
+.insta-logo {
+    margin-bottom: 20px;
+}
+
+body {
+    background: #fafafa;
+    /* altera o fundo da pagina */
+    width: 100vw;
+    /*largura da pagina */
+    height: 100vh;
+    /*altura da pagina*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-itens {
+    width: 350px;
+}
+
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #bdbdbd;
+    background: #ffffff;
+    padding: 50px;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+
+}
+
+
+input {
+    height: 30px;
+    outline: none;
+    border: 1px solid #bdbdbd;
+    border-radius: 3px;
+    padding-left: 5px;
+    margin-top: 5px;
+    color: #262626;
+}
+
+button {
+    background: #0095f6;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    color: #ffffff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.login-facebook {
+    font-weight: bold;
+    text-align: center;
+    color: #385185;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 14px;
+
+}
+
+.esqueceu-senha {
+    color: #385185;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.container-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #bdbdbd;
+
+}
+
+.paragrafo-conta {
+    font-size: 14px;
+}
+
+.link-cadastro {
+    color: #0095f6;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.paragrafo-app {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container-app {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.logo-app {
+    width: 150px;
+
+}
+
+.celular {
+    height: 520px;
+    position: absolute;
+    left: 152px;
+    top: 26px;
+    transition: opacity 2s ease-in-out;
+}
+
+.container-imagens {
+    position: relative;
+
+}
